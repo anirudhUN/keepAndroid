@@ -15,7 +15,7 @@ const [editedNoteText, setEditedNoteText] = useState('');
 const handleEditNote = (noteId, noteText) => {
     setEditingNoteId(noteId);
     setEditedNoteText(noteText);
-    setIsNoteEditing(true); // Enable note editing
+    setIsNoteEditing(true); 
 };
 
     useEffect(() => {
