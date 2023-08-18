@@ -1,5 +1,5 @@
 import React from 'react'
-import {View,Text,Image, StyleSheet,TextInput,Dimensions} from 'react-native'
+import {View,Text,Image, StyleSheet,Dimensions} from 'react-native'
 import logo from '../logo.png'
 
 const windowWidth = Dimensions.get('window').width;
@@ -11,8 +11,6 @@ const Navbar = () => {
     <View style={styles.navbar}>
         <Image style={styles.navlogo} source={logo}></Image>
         <Text style={styles.title}>Keep</Text>
-        {/* <TextInput type='text' placeholder='Search your notes' placeholderTextColor={'#9499A0'} style={styles.searchBar}></TextInput> */}
-      
     </View>
   )
 }
